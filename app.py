@@ -7,7 +7,7 @@ def generar_numeros_aleatorios(cantidad, minimo, maximo):
     numeros_aleatorios = [random.randint(minimo, maximo) for _ in range(cantidad)] 
     return numeros_aleatorios
 
-numeros_aleatorios = generar_numeros_aleatorios(38, 18, 30) # {1,2,3}
+numeros_aleatorios = generar_numeros_aleatorios(30, 18, 30) # {1,2,3}
                                                             #["a", "b", "c"] 
                                                             # []
 
